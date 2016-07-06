@@ -1,3 +1,6 @@
 class CreateAttractions < ActiveRecord::Migration
- # Write your migrations here
+  create_table :attractions do |t|
+  t.string :name 
+  
+end
 end

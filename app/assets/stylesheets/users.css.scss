@@ -1,0 +1,31 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+.pic, .info {
+    padding: 20px;
+    display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 7px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+*
+.info {
+    height: 290px;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
